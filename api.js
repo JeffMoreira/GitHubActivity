@@ -2,6 +2,10 @@ const https = require('https');
 const readline = require('node:readline');
 const { stdin: input, stdout: output } = require('node:process');
 
+function activityHandle(data){
+    
+}
+
 
 const options = {
     headers: {
@@ -26,7 +30,7 @@ rl.on('line', (answer) => {
                 
                 switch (res.statusCode) {
                     case 404:
-                            console.log('Erro 404')
+                            console.log('Usuário não encontrado !')
                         break;
                 
                     default:
