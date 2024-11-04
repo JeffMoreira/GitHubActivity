@@ -2,9 +2,9 @@
   "name": "githubactivity",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "api.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node api.js"
   },
   "keywords": [],
   "author": "Jefferson Moreira",
